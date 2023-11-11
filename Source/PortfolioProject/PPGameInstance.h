@@ -20,6 +20,10 @@ public:
 	virtual void Init();
 
 public:
+	UFUNCTION(Exec, BlueprintCallable, Category = "Sound")
+	void TemplateTest(double a, double b);
+
+public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Subsystem")
 	USoundManagerSubsystem* SoundSubsystem;
 	
