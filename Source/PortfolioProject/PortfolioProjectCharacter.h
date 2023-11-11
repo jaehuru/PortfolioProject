@@ -39,6 +39,10 @@ class APortfolioProjectCharacter : public ACharacter
 
 public:
 	APortfolioProjectCharacter();
+
+public:
+	UFUNCTION(BlueprintCallable, Category = "Time")
+	FDateTime GetTime();
 	
 
 protected:
